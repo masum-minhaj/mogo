@@ -1,0 +1,640 @@
+/*Extra large*/
+@media(min-width:1200px) and (max-width:1399px){
+    .overlay-content h1 {
+        font-size: 115px;
+        padding-bottom: 15px;
+    }
+    .overlay-content h2 {
+        font-size: 55px;
+    }
+    .ft-form form input {
+        width: 200px;
+    }
+    .ft-form button {
+        right: 65px;
+        height: 40px;
+    }
+}
+
+/*Large device*/
+@media(min-width:992px) and (max-width:1199px){
+    .overlay-content h1 {
+        font-size: 115px;
+        padding-bottom: 15px;
+    }
+    .overlay-content h2 {
+        font-size: 50px;
+    }
+    .overlay-content button {
+        margin-top: 10px;
+    }
+    .comment-icon2 i {
+        font-size: 55px;
+        height: 110px;
+        width: 110px;
+        line-height: 110px;
+    }
+    .ft-icon a {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .ft-form form input {
+        width: 170px;
+        height: 35px;
+        padding: 0px 40px 0 5px;
+    }
+    .ft-form button {
+        right: 35px;
+        height: 35px;
+    }
+}
+
+/*Medium Device*/
+@media(min-width:768px) and (max-width:991px){
+    .navbar-expand-lg .navbar-nav .nav-item {
+        text-align: center;
+        background-color: #eeaeb4;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+       display: none;
+      }
+    
+    .overlay-content h1::after {
+       display: block;
+    }
+    .overlay-content h2 {
+        font-size: 55px;
+        padding-bottom: 1px;
+    }
+    .overlay-content h1 {
+        font-size: 70px;
+        padding-bottom: 2px;
+    }
+    .overlay-content h1::after {
+        display:visible;
+      
+    }
+    .overlay-content button {
+        font-size: 18px;
+        padding: 6px 18px;
+        margin-top: 20px;
+
+    }
+    #item {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .item-text h4 {
+        font-size: 24px;
+    }
+    .item-text h3 {
+        font-size: 28px;
+        padding-bottom:5px;
+    }
+    .item-text h3::after {
+        display:visible;
+    }
+    .item-text p {
+        font-size: 15px;
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+    #counterup {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .counter-number h6 {
+        font-size: 45px;
+        
+    }
+    .counter-number p {
+        font-size: 13px;
+    }
+    #service {
+        padding-top: 60px;
+    }
+    .service-head h4 {
+        font-size: 24px;
+    }
+    .service-head h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .service-head h3::after {
+     display: none;
+    }
+    .mb-5 {
+        margin-bottom: 1rem !important;
+    }
+    .service-list {
+        padding-bottom: 5px;
+    }
+    #comment {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: #f8f8f8;
+        margin-top: 10px;
+    }
+    .comment-text p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .comment-text h3::after {
+        display:visible;
+    }
+    .comment-text h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+        margin-left: 72px;
+
+    }
+    #team {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .team-text h4 {
+        font-size: 24px;
+    }
+    .team-text h3 {
+        font-size: 28px;
+        margin-bottom:20px;
+    }
+    .team-text h3::after {
+     display: visible;
+    }
+    .team-text p {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .team-content-text h6 {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .tc-icon i {
+        font-size: 18px;
+        padding: 12px 16px;
+    }
+    #work {
+        padding-top: 60px;
+    }
+    .work-head-text h4 {
+        font-size: 24px;
+    }
+    .work-head-text h3 {
+        font-size: 28px;
+        margin-bottom:5px;
+    }
+    .work-head-text h3::after {
+     display:visible;
+    }
+    .work-head-text p {
+        font-size: 15px;
+        padding-top: 35px;
+        padding-bottom:10px;
+    }
+    #footer {
+        padding-top: 30px;
+        padding-bottom:5px;
+    }
+    .ft-content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .ft-follow p {
+        font-size: 14px;
+    }
+    .ft-follow p span {
+        font-size: 13px;
+    }
+    .ft-icon a {
+        padding-left:3px;
+        font-size: 13px;
+    }
+    .ft-icon {
+        padding-bottom: 15px;
+    }
+    .ft-form form input {
+        width: 140px;
+        height: 30px;
+        padding: 0 40px 0 5px;
+    }
+    .ft-form button {
+        right: 10px;
+        height: 30px;
+        padding: 5px 12px;
+    }
+    .footer-head {
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+    .footer-middle-text h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer-head h3 {
+        font-size: 13px;
+    }
+    .insta-part-text p {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+    .copy h3 {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   
+}
+
+/*Small Device*/
+@media(min-width:576px) and (max-width:767px){
+    .navbar-expand-lg .navbar-nav .nav-item {
+        text-align: center;
+        background-color: #eeaeb4;
+    }
+    
+    .navbar-nav .nav-link::after {
+        display: none;
+      }
+    .overlay-content h2 {
+        font-size: 40px;
+        padding-bottom: 8px;
+
+    }
+    .overlay-content h1 {
+        font-size: 50px;
+        padding-bottom: 25px;
+    }
+    .overlay-content h1::after {
+        display: none;
+      
+    }
+    .overlay-content button {
+        font-size: 18px;
+        padding: 6px 18px;
+        margin: 0;
+
+    }
+    #item {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .item-text h4 {
+        font-size: 22px;
+    }
+    .item-text h3 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .item-text h3::after {
+        display: none;
+    }
+    .item-text p {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    #counterup {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .counter-number h6 {
+        font-size: 45px;
+        
+    }
+    .counter-number p {
+        font-size: 13px;
+    }
+    #service {
+        padding-top: 40px;
+    }
+    .service-head h4 {
+        font-size: 22px;
+    }
+    .service-head h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .service-head h3::after {
+     display: none;
+    }
+    .mb-5 {
+        margin-bottom: 1rem !important;
+    }
+    .service-list {
+        padding-bottom: 5px;
+    }
+    #comment {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: #f8f8f8;
+        margin-top: 10px;
+    }
+    .comment-icon2 i {
+        font-size: 50px;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+    .comment-text p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .comment-text h3::after {
+        display: none;
+    }
+    .comment-text h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+
+    }
+    #team {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .team-text h4 {
+        font-size: 22px;
+    }
+    .team-text h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .team-text h3::after {
+     display: none;
+    }
+    .team-text p {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    .team-content-text h6 {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    .tc-icon i {
+        font-size: 22px;
+        padding: 14px 18px;
+
+    }
+    #work {
+        padding-top: 40px;
+    }
+    .work-head-text h4 {
+        font-size: 22px;
+    }
+    .work-head-text h3 {
+        font-size: 24px;
+        margin-bottom:5px;
+    }
+    .work-head-text h3::after {
+     display: none;
+    }
+    .work-head-text p {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #footer {
+        padding-top: 30px;
+        padding-bottom:5px;
+    }
+    .ft-content p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 18px;
+        padding-bottom: 0px;
+    }
+    .ft-follow p {
+        font-size: 16px;
+    }
+    .ft-follow p span {
+        font-size: 14px;
+    }
+    .ft-icon a {
+        padding-left: 12px;
+        font-size: 20px;
+    }
+    .ft-icon {
+        padding-bottom: 15px;
+    }
+    .ft-form form input {
+        width: 234px;
+        height: 35px;
+        padding: 0 40px 0 5px;
+    }
+    .ft-form button {
+        right: 200px;
+        height: 35px;
+        padding: 5px 20px;
+    }
+    .footer-head {
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+    .footer-middle-text h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer-head h3 {
+        font-size: 13px;
+    }
+    .insta-part-text p {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+    .copy h3 {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   
+}
+
+
+/*Extra small Device */
+
+
+@media(max-width:575.99px){
+    .navbar-expand-lg .navbar-nav .nav-item {
+        text-align: center;
+        background-color: #eeaeb4;
+    }
+    
+    .navbar-nav .nav-link::after {
+        display: none;
+      }
+    .overlay-content h2 {
+        font-size: 20px;
+    }
+    .overlay-content h1 {
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+    .overlay-content h1::after {
+        display: none;
+      
+    }
+    .overlay-content button {
+        font-size: 13px;
+        padding: 2px 15px;
+        margin: 0;
+
+    }
+    #item {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .item-text h4 {
+        font-size: 16px;
+    }
+    .item-text h3 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .item-text h3::after {
+        display: none;
+    }
+    .item-text p {
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+    #service {
+        padding-top: 20px;
+    }
+    .service-head h4 {
+        font-size: 18px;
+    }
+    .service-head h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .service-head h3::after {
+     display: none;
+    }
+    .mb-5 {
+        margin-bottom: 1rem !important;
+    }
+    .service-list {
+        padding-bottom: 5px;
+    }
+    #comment {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: #f8f8f8;
+        margin-top: 10px;
+    }
+    .comment-text p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .comment-text h3::after {
+        display: none;
+    }
+    .comment-text h3 {
+        font-size: 20px;
+        margin-bottom: 2px;
+        margin-left: 0px;
+
+    }
+    #team {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .team-text h4 {
+        font-size: 18px;
+    }
+    .team-text h3 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .team-text h3::after {
+     display: none;
+    }
+    .team-text p {
+        font-size: 14px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    .team-content-text h6 {
+        font-size: 13px;
+        padding-top: 12px;
+    }
+    #work {
+        padding-top: 20px;
+    }
+    .work-head-text h4 {
+        font-size: 18px;
+    }
+    .work-head-text h3 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .work-head-text h3::after {
+     display: none;
+    }
+    .work-head-text p {
+        font-size: 14px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    #footer {
+        padding-top: 30px;
+        padding-bottom:5px;
+    }
+    .ft-content p {
+        font-size: 13px;
+        line-height: 24px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+    .ft-follow p {
+        font-size: 14px;
+    }
+    .ft-follow p span {
+        font-size: 13px;
+    }
+    .ft-icon a {
+        padding-left: 7px;
+        font-size: 14px;
+    }
+    .ft-icon {
+        padding-bottom: 12px;
+    }
+    .ft-form form input {
+        width: 164px;
+        height: 25px;
+        padding: 0 40px 0 5px;
+    }
+    .ft-form button {
+        right: 60px;
+        height: 25px;
+        padding: 0 15px;
+    }
+    .footer-head {
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+    .footer-middle-text h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer-head h3 {
+        font-size: 13px;
+    }
+    .insta-part-text p {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+    .copy h3 {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   
+}
